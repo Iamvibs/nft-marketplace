@@ -117,6 +117,9 @@ const CreateItem = () => {
                   <Image
                     src={fileUrl}
                     alt="Asset_file"
+                    objectFit="contain"
+                    width={600}
+                    height={350}
                   />
                 </div>
               </aside>
