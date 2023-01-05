@@ -1,9 +1,13 @@
 import { useEffect, useState, useContext } from 'react';
 import { useRouter } from 'next/router';
 import axios from 'axios';
+import Image from 'next/image';
 
 import { NFTContext } from '../context/NFTContext';
-import { Button, Input, Loader } from '../components';
+
+import Button from '../components/Button';
+import Input from '../components/Input';
+import Loader from '../components/Loader';
 
 const ResellNFT = () => {
   const { createSale, isLoadingNFT } = useContext(NFTContext);
@@ -51,7 +55,7 @@ const ResellNFT = () => {
           handleClick={(e) => setPrice(e.target.value)}
         />
 
-        {image && <img className="rounded mt-4" width="350" src={image} />}
+        {image && <Image className="rounded mt-4" width="350" src={image} />}
 
         <div className="mt-7 w-full flex justify-end">
           <Button

@@ -2,7 +2,8 @@ import Script from 'next/script';
 import { ThemeProvider } from 'next-themes';
 
 import { NFTProvider } from '../context/NFTContext';
-import { Footer, Navbar } from '../components';
+import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
 import '../styles/globals.css';
 
 const Marketplace = ({ Component, pageProps }) => (

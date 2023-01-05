@@ -3,7 +3,12 @@ import Image from 'next/image';
 
 import { NFTContext } from '../context/NFTContext';
 import { shortenAddress } from '../utils/shortenAddress';
-import { Loader, NFTCard, SearchBar, Banner } from '../components';
+
+import Loader from '../components/Loader';
+import NFTCard from '../components/NFTCard';
+import SearchBar from '../components/SearchBar';
+import Banner from '../components/Banner';
+
 import images from '../assets';
 
 const MyNFTs = () => {

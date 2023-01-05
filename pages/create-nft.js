@@ -6,7 +6,10 @@ import Image from 'next/image';
 import { useTheme } from 'next-themes';
 
 import { NFTContext } from '../context/NFTContext';
-import { Button, Input, Loader } from '../components';
+
+import Button from '../components/Button';
+import Input from '../components/Input';
+import Loader from '../components/Loader';
 import images from '../assets';
 
 const projectId = '2JrBPPTad2Hjds8zCG9DszOPmOO';
@@ -111,7 +114,7 @@ const CreateItem = () => {
             {fileUrl && (
               <aside>
                 <div>
-                  <img
+                  <Image
                     src={fileUrl}
                     alt="Asset_file"
                   />

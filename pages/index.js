@@ -2,12 +2,16 @@ import { useEffect, useState, useRef, useContext } from 'react';
 import { useTheme } from 'next-themes';
 import Image from 'next/image';
 
-import { CreatorCard, NFTCard, Loader, SearchBar, Banner } from '../components';
+import CreatorCard from '../components/CreatorCard';
+import NFTCard from '../components/NFTCard';
+import Loader from '../components/Loader';
+import SearchBar from '../components/SearchBar';
+import Banner from '../components/Banner';
+
 import { NFTContext } from '../context/NFTContext';
 import { getCreators } from '../utils/getTopCreators';
 import { shortenAddress } from '../utils/shortenAddress';
 import images from '../assets';
-import { makeid } from '../utils/makeId';
 
 const Home = () => {
   const { fetchNFTs } = useContext(NFTContext);
