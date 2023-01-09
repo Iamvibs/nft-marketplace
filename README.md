@@ -1,15 +1,33 @@
-# Basic Sample Hardhat Project
+# NFT Marketplace
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+## Technology Stack & Tools
 
-Try running some of the following tasks:
+- Solidity (Writing Smart Contracts & Tests)
+- Javascript (React & Testing)
+- [Hardhat](https://hardhat.org/) (Development Framework)
+- [Ethers.js](https://docs.ethers.io/v5/) (Blockchain Interaction)
+- [React.js](https://reactjs.org/) (Frontend Framework)
+- [Next.js](https://nextjs.org/) 
+- [Tailwind](https://tailwindcss.com/)
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+## Requirements For Initial Setup
+- Install [NodeJS](https://nodejs.org/en/)
+
+## Setting Up
+### 1. Clone/Download the Repository
+
+### 2. Install Dependencies:
+`$ npm install`
+
+### 3. Run tests
+`$ npx hardhat test`
+
+### 4. Start Hardhat node
+`$ npx hardhat node`
+
+### 5. Run deployment script
+In a separate terminal execute:
+`$ npx hardhat run ./scripts/deploy.js --network localhost`
+
+### 7. Start frontend
+`$ npm run dev`
