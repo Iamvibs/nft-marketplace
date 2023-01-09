@@ -7,8 +7,8 @@
 - [Hardhat](https://hardhat.org/) (Development Framework)
 - [Ethers.js](https://docs.ethers.io/v5/) (Blockchain Interaction)
 - [React.js](https://reactjs.org/) (Frontend Framework)
-- [Next.js](https://nextjs.org/) 
-- [Tailwind](https://tailwindcss.com/)
+- [Next.js](https://nextjs.org/) (Frontend Framework)
+- [Tailwind](https://tailwindcss.com/) (Frontend Framework)
 
 ## Requirements For Initial Setup
 - Install [NodeJS](https://nodejs.org/en/)
